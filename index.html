@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Assignment Manager</h1>
+        <div class="form-container">
+            <input type="text" id="title" placeholder="Assignment Title" required>
+            <textarea id="description" placeholder="Assignment Description" required></textarea>
+            <button onclick="addAssignment()">Add Assignment</button>
+        </div>
+        <h2>Assignments</h2>
+        <div id="assignments"></div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
